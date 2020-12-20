@@ -1,9 +1,14 @@
 package plm.beans;
 
-import java.io.Serializable;
-
 import lombok.Data;
 
+import java.io.Serializable;
+
+/**
+ * 配置对象类
+ * 
+ * @author 晓风轻 https://github.com/xwjie/PLMCodeTemplate
+ */
 @Data
 public class Config implements Serializable {
 
@@ -12,7 +17,7 @@ public class Config implements Serializable {
 	private String name, description, value;
 
 	private long id;
-	
+
 	/**
 	 * 创建者，demo使用字符串，实际上应该用对象id
 	 */
